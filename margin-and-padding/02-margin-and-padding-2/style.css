@@ -25,3 +25,35 @@ button {
   background: white;
   border: 1px solid #eee;
 }
+
+/* SOLUTION */
+
+.card {
+  padding: 8px;
+}
+
+.title,
+.content,
+.button-container {
+  margin: 8px;
+}
+
+.title {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  padding: 16px 8px;
+}
+
+.button-container {
+  padding: 8px;
+  text-align: center;
+}
+
+.button-container button {
+  display: block;
+  margin: auto;
+  padding: 8px 24px;
+}
